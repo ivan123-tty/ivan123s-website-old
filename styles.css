@@ -1,15 +1,35 @@
 body {
-  font-family: "Noto Sans";
-  font-size: 14px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  background-color: #353535;
 }
 
 h1 {
 font-size:35px;
+color: white;
 }
 
 p {
 font-size:20px;
+color: white;
 }
+
+a:link {
+color: #00ffff
+}
+
+a:visited {
+	color: #00ffff
+}
+
+a:hover {
+	color: #CBFFFF
+}
+
+a:active {
+	color: blue
+}
+
 
 
 
