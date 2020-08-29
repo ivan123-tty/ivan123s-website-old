@@ -23,14 +23,22 @@ a:visited {
 }
 
 a:hover {
-	color: #00BDFF
+	color: #00ffd4
 }
 
-a:active {
-	color: 00BDFF
+#menu1 {
+ display: inline;
+ margin: 0;
+ color: cyan;
 }
 
+#menu2 {
+ display: inline;
+ margin: 0;
+ color: white;
+}
 
-
-
-
+#menu1:hover {
+	color: #00ffd4
+}
+	
