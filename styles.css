@@ -1,5 +1,5 @@
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans";
   font-size: 20px;
   background-color: #353535;
 }
@@ -15,29 +15,33 @@ color: white;
 }
 
 a:link {
-color: #00ffff
+color: #fa00ff
 }
 
 a:visited {
-	color: #00ffff
+	color: #fa00ff
 }
 
 a:hover {
-	color: #00ffd4
+	color: #c700ff
 }
 
 #menu1 {
  display: inline;
  margin: 0;
- color: cyan;
+ color: #fa00ff;
 }
 
 #menu2 {
  display: inline;
  margin: 0;
- color: white;
+ color: #fa00ff;
 }
 
 #menu1:hover {
-	color: #00ffd4
+	color: #c700ff
+}
+
+#menu2:hover {
+	color: #c700ff;
 }
