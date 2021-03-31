@@ -1,5 +1,4 @@
 # ivan123gm.github.io
-My new website.
-Link: ivan123gm.github.io
+My website.
 
 (Work In Progress)
