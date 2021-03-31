@@ -4,40 +4,42 @@
 <link rel="icon" type="image/png" href="images/favicon.png" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 <link rel="stylesheet" type="text/css" href="styles.css">
-<!--<script>
+<script src="https://kit.fontawesome.com/8bc670777c.js" crossorigin="anonymous"></script>
+<script>
 	function changeLang() {;
-	document.getElementById("avatar").innerHTML = "Это мой аватар"
-	document.getElementById("menu1").innerHTML = "Контакты"
-	document.getElementById("menu2").innerHTML = "Мои работы"
+	document.getElementById("avatar2").innerHTML = "Это мой аватар"
+	document.getElementById("menu1").innerHTML = "Мои работы"
 	document.getElementById("main").innerHTML = "Привет!"
-</script>-->
+
+	document.getElementById("ru").style = "opacity: 50%; pointer-events: none;"
+}
+</script>
 </head>
 <meta charset="utf-8">
 <meta name= "description" content="my website">
 <title>ivan123's site</title>
 
-
 <body>
-
+<!--adding fontawesome icons and adding links to my socials-->
+	<a href="https://discord.bio/p/ivan123ru"><i class="fab fa-discord" id=discord-icon></i></a>
+	<a href="https://twitter.com/ivan123ru"><i class="fab fa-twitter-square" id=twitter-icon></i></a>
+	<a href="https://www.reddit.com/user/ivan12345pro"><i class="fab fa-reddit-square" id=reddit-icon></i></a>
+	<a href="https://github.com/ivan123-ru"><i class="fab fa-github-square" id=github-icon></i></a>
+	<a href="https://www.youtube.com/channel/UCjEU7UGrIFQkv_cdVL3pgZw"><i class="fab fa-youtube-square" id=youtube-icon></i></a>
+	<a href="https://steamcommunity.com/id/ivan123ru/"><i class="fab fa-steam-square" id=steam-icon></i></a>\
+<!--adding ru icon-->
+	<img id="ru" src="ru.svg" width="64" height="64" onclick="changeLang()">
+	<h1>
+	<center>ivan123's site</center>
+	</h1>
 <center>
-<a id=menu1 href ="contacts.html">Contacts</a>
-<a id=menu2 href ="images.html">My works</a>
-</center>
-
-
-<h1>
-<center>ivan123's site</center>
-</h1>
-
-<center>
-<p>
+<p id=main>
 Hello!
 </p>
-<img src="images/ivan123 space.png" width="256" height="256">
+<img id=avatar1 src="images/ivan123 space.png" width="256" height="256">
 
-<p> This is my avatar<p/>
-
-  <p><a href="russian/index.html">Russian Version/Русская Версия</a></p>
+<p id=avatar2>This is my avatar<p/>
+<a id=menu1 href ="images.html">My works</a>
 </center>
 
 </body>

@@ -45,3 +45,68 @@ a:hover {
 #menu2:hover {
 	color: #c700ff;
 }
+
+#ru {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+
+#discord-icon {
+	position: absolute;
+	/*left: 10px;*/
+	top: 10px;
+	font-size: 64px;
+	color: #8b00cc;
+	cursor: pointer;
+}
+
+#twitter-icon {
+	position: absolute;
+	/*left: 80px;*/
+	top: 75px;
+	font-size: 64px;
+	color: #0094ff;
+	cursor: pointer;
+}
+
+#reddit-icon {
+	position: absolute;
+	/*left: 150px;*/
+	top: 140px;
+	font-size: 64px;
+	color: #ff6a00;
+	cursor: pointer;
+}
+
+#github-icon {
+	position: absolute;
+	/*left: 220px;*/
+	top: 205px;
+	font-size: 64px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#youtube-icon {
+	position: absolute;
+	/*left: 290px;*/
+	top: 270px;
+	font-size: 64px;
+	color: #ff0000;
+	cursor: pointer;
+}
+
+#steam-icon {
+	position: absolute;
+	/*left: 360px;*/
+	top: 335px;
+	font-size: 64px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+#avatar1 {
+	border-radius: 15px;
+}
