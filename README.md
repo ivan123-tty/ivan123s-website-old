@@ -3,4 +3,4 @@ my website.
 # credits
 social icons: [FontAwesome](https://fontawesome.com/)
 
-Russia icon: [Twemoji](https://twemoji.twitter.com/)
+country flags: [Twemoji](https://twemoji.twitter.com/)

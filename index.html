@@ -6,12 +6,12 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script src="https://kit.fontawesome.com/8bc670777c.js" crossorigin="anonymous"></script>
 <script>
-	function changeLang() {;
+function changeLang() {;
 	document.getElementById("avatar2").innerHTML = "Это мой аватар"
 	document.getElementById("menu1").innerHTML = "Мои работы"
 	document.getElementById("main").innerHTML = "Привет!"
-
-	document.getElementById("ru").style = "opacity: 50%; pointer-events: none;"
+	/*yes, i know. you can't change language back yet. for now, just refresh page.*/
+	document.getElementById("lang").src = "uk.svg"
 }
 </script>
 </head>
@@ -29,7 +29,7 @@
 	<a href="https://www.youtube.com/channel/UCjEU7UGrIFQkv_cdVL3pgZw"><i class="fab fa-youtube-square" id=youtube-icon></i></a>
 	<a href="https://steamcommunity.com/id/ivan123ru/"><i class="fab fa-steam-square" id=steam-icon></i></a>\
 <!--adding ru icon-->
-	<img id="ru" src="ru.svg" width="64" height="64" onclick="changeLang()">
+	<img id="lang" src="ru.svg" width="64" height="64" onclick="changeLang()">
 	<h1>
 	<center>ivan123's site</center>
 	</h1>
