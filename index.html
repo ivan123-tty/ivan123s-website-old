@@ -5,16 +5,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script src="https://kit.fontawesome.com/8bc670777c.js" crossorigin="anonymous"></script>
-<script>
-function changeLang() {;
-	document.getElementById("avatar2").innerHTML = "Это мой аватар"
-	document.getElementById("menu1").innerHTML = "Мои работы"
-	document.getElementById("main").innerHTML = "Привет!"
-	/*yes, i know. you can't change language back yet. for now, just refresh page.*/
-	document.getElementById("lang").src = "uk.svg"
-	document.getElementById("lang").style = "opacity: 50%; pointer-events: none;"
-}
-</script>
 </head>
 <meta charset="utf-8">
 <meta name= "description" content="my website">
@@ -22,6 +12,28 @@ function changeLang() {;
 <title>ivan123's site</title>
 
 <body>
+<script>
+function changeLang() {;
+	document.getElementById("avatar2").innerHTML = "Это мой аватар"
+	document.getElementById("menu1").innerHTML = "Мои работы"
+	document.getElementById("main").innerHTML = "Привет!"
+	/*yes, i know. you can't change language back yet. for now, just refresh page.*/
+	document.getElementById("lang").src = "country-flags/uk.svg"
+	document.getElementById("lang").onclick = changeLang2;
+}
+function changeLang2() {;
+	document.getElementById("avatar2").innerHTML = "This is my avatar."
+	document.getElementById("menu1").innerHTML = "My works"
+	document.getElementById("main").innerHTML = "Hello"
+	/*yes, i know. you can't change language back yet. for now, just refresh page.*/
+	document.getElementById("lang").src = "country-flags/ru.svg"
+	document.getElementById("lang").onclick = changeLang;
+}
+window.onload = () => {;
+	document.getElementById("lang").addEventListener('DOMSubtreeModified', function(){
+		console.log('object "lang" changed') }) 
+	};
+</script>
 <!--adding fontawesome icons and adding links to my socials-->
 	<a href="https://discord.bio/p/ivan123ru"><i class="fab fa-discord" id=discord-icon></i></a>
 	<a href="https://twitter.com/ivan123ru"><i class="fab fa-twitter-square" id=twitter-icon></i></a>
@@ -30,18 +42,19 @@ function changeLang() {;
 	<a href="https://www.youtube.com/channel/UCjEU7UGrIFQkv_cdVL3pgZw"><i class="fab fa-youtube-square" id=youtube-icon></i></a>
 	<a href="https://steamcommunity.com/id/ivan123ru/"><i class="fab fa-steam-square" id=steam-icon></i></a>\
 <!--adding ru icon-->
-	<img id="lang" src="ru.svg" width="64" height="64" onclick="changeLang()">
+	<img id="lang" src="country-flags/ru.svg" width="64" height="64" onclick="changeLang()">
 	<h1>
-	<center>ivan123's site</center>
+	ivan123's site
 	</h1>
-<center>
 <p id=main>
 Hello!
-</p>
+	</p>
 <img id=avatar1 src="images/ivan123 space.png" width="256" height="256">
-
-<p id=avatar2>This is my avatar<p/>
-<a id=menu1 href ="images.html">My works</a>
+	<p>
+<text id=avatar2>This is my avatar</text>
+	</p>
+<center>
+	<a id=menu1 href ="images.html">My works</a>
 </center>
 
 </body>

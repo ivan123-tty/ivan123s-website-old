@@ -1,21 +1,33 @@
 body {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 20px;
-  background-color: #353535;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 20px;
+	background-color: #353535;
 }
 
 h1 {
-font-size:35px;
-color: white;
+	font-size:35px;
+	color: white;
+	text-align: center;
+}
+
+#avatar2 {
+	text-align: center;
+}
+
+#avatar1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p {
-font-size:20px;
-color: white;
+	font-size:20px;
+	color: white;
+	text-align: center;
 }
 
 a:link {
-color: #fa00ff
+	color: #fa00ff
 }
 
 a:visited {
@@ -27,23 +39,13 @@ a:hover {
 }
 
 #menu1 {
- display: inline;
- margin: 0;
- color: #fa00ff;
-}
-
-#menu2 {
- display: inline;
- margin: 0;
- color: #fa00ff;
+	display: inline;
+	margin: 0;
+	color: #fa00ff;
 }
 
 #menu1:hover {
 	color: #c700ff
-}
-
-#menu2:hover {
-	color: #c700ff;
 }
 
 #lang {
