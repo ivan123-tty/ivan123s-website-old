@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="icon" type="image/png" href="images/favicon.png" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
-<link rel="stylesheet" type="text/css" href="styles.css">
-<script src="https://kit.fontawesome.com/8bc670777c.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/8bc670777c.js" crossorigin="anonymous"></script>
 </head>
 <meta charset="utf-8">
 <meta name= "description" content="my website">
@@ -12,32 +12,7 @@
 <title>ivan123's site</title>
 
 <body>
-<script>
-function changeLang() {;
-	/*translations itself*/
-	document.getElementById("avatar2").innerHTML = "Это мой аватар"
-	document.getElementById("menu1").innerHTML = "Мои работы"
-	document.getElementById("main").innerHTML = "Привет!"
-	/*changing country flag and onclick function*/
-	document.getElementById("lang").src = "country-flags/uk.svg"
-	document.getElementById("lang").onclick = changeLang2;
-}
-function changeLang2() {;
-	/*translations itself*/
-	document.getElementById("avatar2").innerHTML = "This is my avatar."
-	document.getElementById("menu1").innerHTML = "My works"
-	document.getElementById("main").innerHTML = "Hello"
-	/*changing country flag and onclick function*/
-	document.getElementById("lang").src = "country-flags/ru.svg"
-	document.getElementById("lang").onclick = changeLang;
-}
-window.onload = () => {;
-	/*detecting changes in element lang*/
-	document.getElementById("lang").addEventListener('DOMSubtreeModified', function(){
-		/*saying that object was changed*/
-		console.log('object "lang" changed') }) 
-	};
-</script>
+<script src="js/index.js"></script>
 <!--adding fontawesome icons and adding links to my socials-->
 	<a href="https://discord.bio/p/ivan123ru"><i class="fab fa-discord" id=discord-icon></i></a>
 	<a href="https://twitter.com/ivan123ru"><i class="fab fa-twitter-square" id=twitter-icon></i></a>
