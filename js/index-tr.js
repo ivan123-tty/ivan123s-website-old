@@ -13,7 +13,7 @@ function langRU() {;
 function langEN() {;
 	/*translations itself*/
 	document.getElementById("avatar2").innerHTML = "This is my avatar."
-	document.getElementById("menu1").innerHTML = "My works"
+	document.getElementById("menu1").innerHTML = "My creations"
 	document.getElementById("main").innerHTML = "Hello"
 	/*changing country flag and onclick function*/
 	document.getElementById("lang").src = "country-flags/ru.svg"
