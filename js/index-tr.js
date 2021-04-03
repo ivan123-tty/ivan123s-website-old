@@ -1,3 +1,6 @@
+window.onload = () => {;
+	document.getElementById("lang").style = "opacity: 100%;"};
+
 function langRU() {;
 	/*translations itself*/
 	document.getElementById("avatar2").innerHTML = "Это мой аватар"

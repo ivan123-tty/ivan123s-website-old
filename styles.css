@@ -39,9 +39,8 @@ a:hover {
 }
 
 #menu1 {
-	display: inline;
-	margin: 0;
 	color: #fa00ff;
+	text-align: center;
 }
 
 #menu1:hover {
@@ -53,6 +52,7 @@ a:hover {
 	right: 10px;
 	top: 10px;
 	cursor: pointer;
+	opacity: 50%;
 }
 
 #discord-icon {
@@ -105,4 +105,26 @@ a:hover {
 
 #avatar1 {
 	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#noscript {
+	font-size: 20px;
+	text-align: center;
+	color: red;
+}
+
+#wallpaper {
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+}
+
+#wallpaper2 {
+	text-align: center;
+}
+
+#all {
+	font-size: 25px;
 }
