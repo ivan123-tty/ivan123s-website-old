@@ -27,23 +27,36 @@ p {
 }
 
 a:link {
-	color: #fa00ff
+	color: #fa00ff;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 a:visited {
-	color: #fa00ff
+	color: #fa00ff;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 a:hover {
-	color: #c700ff
+	color: #c700ff;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #menu1 {
 	color: #fa00ff;
-	text-align: center;
+}
+
+#menu2 {
+	color: #fa00ff;
 }
 
 #menu1:hover {
+	color: #c700ff
+}
+
+#menu2:hover {
 	color: #c700ff
 }
 
@@ -127,4 +140,8 @@ a:hover {
 
 #all {
 	font-size: 25px;
+}
+
+div {
+	text-align: center;
 }
