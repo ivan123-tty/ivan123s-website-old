@@ -1,7 +1,14 @@
+@font-face {
+	font-family: 'JetBrainsMono-Medium';
+	src: url('fonts/JetBrainsMono-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
-	font-family: "Noto Sans", sans-serif;
 	font-size: 20px;
 	background-color: #353535;
+	font-family: JetBrainsMono-Medium;
 }
 
 h1 {
@@ -61,59 +68,50 @@ a:hover {
 }
 
 #lang {
-	position: absolute;
 	right: 10px;
 	top: 10px;
-	cursor: pointer;
 	opacity: 50%;
 }
 
 #discord-icon {
-	position: absolute;
 	top: 10px;
-	font-size: 64px;
 	color: #758DD8;
-	cursor: pointer;
 }
 
 #twitter-icon {
-	position: absolute;
 	top: 75px;
-	font-size: 64px;
 	color: #0094ff;
-	cursor: pointer;
 }
 
 #reddit-icon {
-	position: absolute;
 	top: 140px;
-	font-size: 64px;
 	color: #ff6a00;
-	cursor: pointer;
 }
 
 #github-icon {
-	position: absolute;
 	top: 205px;
-	font-size: 64px;
 	color: #ffffff;
-	cursor: pointer;
 }
 
 #youtube-icon {
-	position: absolute;
 	top: 270px;
-	font-size: 64px;
 	color: #ff0000;
-	cursor: pointer;
 }
 
 #steam-icon {
-	position: absolute;
 	top: 335px;
-	font-size: 64px;
 	color: #ffffff;
+}
+
+#discord-icon, #twitter-icon, #reddit-icon, #github-icon, #youtube-icon, #steam-icon, #lang {
+	transition-duration: 0.4s;
+	position: absolute;
+	font-size: 64px;
 	cursor: pointer;
+}
+
+#discord-icon:hover, #twitter-icon:hover, #reddit-icon:hover, #github-icon:hover, #youtube-icon:hover, #steam-icon:hover, #lang:hover {
+	transform: scale(0.85);
 }
 
 #avatar1 {
