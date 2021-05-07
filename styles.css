@@ -1,15 +1,14 @@
 @font-face {
-	font-family: 'JetBrainsMono-Medium';
-	src: url('fonts/JetBrainsMono-Medium.ttf');
+	font-family: 'NotoSans-Regular';
+	src: url('fonts/NotoSans-Regular.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
 
 body {
 	font-size: 20px;
-	background-color: #353535;
-	font-family: JetBrainsMono-Medium;
-	word-spacing: -5px;
+	background-color: #1b1b2a;
+	font-family: "NotoSans-Regular";
 }
 
 h1 {
