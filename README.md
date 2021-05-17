@@ -6,6 +6,3 @@ social icons: [FontAwesome](https://fontawesome.com/)
 country flags: [Twemoji](https://twemoji.twitter.com/)
 
 font: [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
-
-webhook test !
-yay!!!!!!!!!!!!!!!!!!
