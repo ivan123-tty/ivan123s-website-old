@@ -1,4 +1,4 @@
-# ivan123gm.github.io
+# ivan123ru.github.io
 my website.
 # credits
 social icons: [FontAwesome](https://fontawesome.com/)
