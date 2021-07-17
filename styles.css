@@ -135,8 +135,13 @@ a:hover {
 	text-align: center;
 }
 
-div {
+#div1 {
 	text-align: center;
+	padding-top: -20px;
+}
+
+#main3 {
+	margin: 2px;
 }
 
 body {
@@ -160,4 +165,3 @@ body {
 	100% {
 		opacity: 100%;
 }
-
