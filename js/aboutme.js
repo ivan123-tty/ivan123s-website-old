@@ -6,7 +6,7 @@ function langRU() {;
 	document.getElementById("main1").innerHTML = "Привет!"
     document.getElementById("main2").innerHTML = "Я ivan123,<br> 15-летний подросток<br> интересующийся технологиями.<br> Живу в России."
     document.getElementById("main3").innerHTML = "Кстати, у меня есть Discord сервер.<br> Если хотите присоединиться к нему,<br>"
-    document.getElementById("main4").innerHTML = "здесь приглашение."
+    document.getElementById("main4").innerHTML = "вот приглашение."
 	/*changing country flag and onclick function*/
 	document.getElementById("lang").src = "country-flags/uk.svg"
 	document.getElementById("lang").onclick = langEN;
