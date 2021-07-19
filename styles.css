@@ -55,43 +55,43 @@ a:hover {
 }
 
 #lang {
-	left: 370px;
+	left: 365px;
     width: 50px;
 	opacity: 50%;
 }
 
 #discord-icon {
-	left: 310px;
+	left: 305px;
     width: 50px;
 	color: #758DD8;
 }
 
 #twitter-icon {
-	left: 250px;
+	left: 245px;
     width: 50px;
 	color: #0094ff;
 }
 
 #reddit-icon {
-	left: 190px;
+	left: 185px;
     width: 50px;
 	color: #ff6a00;
 }
 
 #github-icon {
-	left: 130px;
+	left: 125px;
 	color: #b200ff;
     width: 50px;
 }
 
 #youtube-icon {
-    left: 70px;
+    left: 65px;
 	color: #ff0000;
     width: 50px;
 }
 
 #steam-icon {
-	left: 10px;
+	left: 5px;
 	color: #7f7f7f;
     width: 50px;
 }
@@ -155,11 +155,6 @@ a:hover {
 body {
 	animation-name: fade;
 	animation-duration: 1.2s;
-}
-
-#icons {
-	right: 10px;
-	left: 10px;
 }
 
 @keyframes fade {
