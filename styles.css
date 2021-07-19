@@ -55,40 +55,47 @@ a:hover {
 }
 
 #lang {
-	right: 10px;
-	top: 10px;
+	left: 380px;
+    width: 50px;
 	opacity: 50%;
 }
 
 #discord-icon {
-	top: 10px;
+	left: 320px;
+    width: 50px;
 	color: #758DD8;
 }
 
 #twitter-icon {
-	top: 75px;
+	left: 260px;
+    width: 50px;
 	color: #0094ff;
 }
 
 #reddit-icon {
-	top: 140px;
+	left: 200px;
+    width: 50px;
 	color: #ff6a00;
 }
 
 #github-icon {
-	top: 205px;
+	left: 140px;
 	color: #b200ff;
+    width: 50px;
 }
 
 #youtube-icon {
-	top: 270px;
+    left: 80px;
 	color: #ff0000;
+    width: 50px;
 }
 
 #steam-icon {
-	top: 335px;
+	left: 20px;
 	color: #7f7f7f;
+    width: 50px;
 }
+
 
 #discord-icon, 
 #twitter-icon, 
