@@ -157,6 +157,11 @@ body {
 	animation-duration: 1.2s;
 }
 
+#icons {
+	right: 10px;
+	left: 10px;
+}
+
 @keyframes fade {
 	0% {
 		opacity: 0%;
@@ -173,3 +178,4 @@ body {
 	100% {
 		opacity: 100%;
 }
+
