@@ -55,43 +55,43 @@ a:hover {
 }
 
 #lang {
-	left: 380px;
+	left: 370px;
     width: 50px;
 	opacity: 50%;
 }
 
 #discord-icon {
-	left: 320px;
+	left: 310px;
     width: 50px;
 	color: #758DD8;
 }
 
 #twitter-icon {
-	left: 260px;
+	left: 250px;
     width: 50px;
 	color: #0094ff;
 }
 
 #reddit-icon {
-	left: 200px;
+	left: 190px;
     width: 50px;
 	color: #ff6a00;
 }
 
 #github-icon {
-	left: 140px;
+	left: 130px;
 	color: #b200ff;
     width: 50px;
 }
 
 #youtube-icon {
-    left: 80px;
+    left: 70px;
 	color: #ff0000;
     width: 50px;
 }
 
 #steam-icon {
-	left: 20px;
+	left: 10px;
 	color: #7f7f7f;
     width: 50px;
 }
