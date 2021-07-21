@@ -1,7 +1,7 @@
-window.onload = () => {;
+window.onload = () => {
 	document.getElementById("lang").style = "opacity: 100%;"};
 
-function langRU() {;
+function langRU() {
 	/*translations itself*/
 	document.getElementById("main").innerHTML = "Привет!"
 	document.getElementById("menu1").innerHTML = "Мои творения"
@@ -10,7 +10,7 @@ function langRU() {;
 	document.getElementById("lang").src = "country-flags/uk.svg"
 	document.getElementById("lang").onclick = langEN;
 }
-function langEN() {;
+function langEN() {
 	/*translations itself*/
 	document.getElementById("main").innerHTML = "Hello!"
 	document.getElementById("menu1").innerHTML = "My creations"

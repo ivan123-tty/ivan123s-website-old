@@ -1,7 +1,7 @@
-window.onload = () => {;
+window.onload = () => {
 	document.getElementById("lang").style = "opacity: 100%;"};
 
-function langRU() {;
+function langRU() {
 	/*translations itself*/
 	document.getElementById("main1").innerHTML = "Привет!"
     document.getElementById("main2").innerHTML = "Я ivan123,<br> 15-летний подросток<br> интересующийся технологиями.<br> Живу в России."
@@ -12,7 +12,7 @@ function langRU() {;
 	document.getElementById("lang").src = "country-flags/uk.svg"
 	document.getElementById("lang").onclick = langEN;
 }
-function langEN() {;
+function langEN() {
 	/*translations itself*/
 	document.getElementById("main1").innerHTML = "Hello!"
     document.getElementById("main2").innerHTML = "I'm ivan123,<br> a 15 years old teenager<br> interested in tech.<br> I'm living in Russia."
