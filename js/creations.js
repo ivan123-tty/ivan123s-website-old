@@ -7,7 +7,7 @@ function langRU() {
 	document.getElementById("menu1").innerHTML = "Обои, созданные мной.";
 	document.getElementById("menu2").innerHTML = "Этот сайт";
 	/*changing country flag and onclick function*/
-	document.getElementById("lang").src = "country-flags/uk.svg";
+	document.getElementById("lang").src = "svg/uk.svg";
 	document.getElementById("lang").onclick = langEN;
 }
 function langEN() {
@@ -16,6 +16,6 @@ function langEN() {
 	document.getElementById("menu1").innerHTML = "wallpapers, created by me.";
 	document.getElementById("menu2").innerHTML = "this website";
 	/*changing country flag and onclick function*/
-	document.getElementById("lang").src = "country-flags/ru.svg";
+	document.getElementById("lang").src = "svg/ru.svg";
 	document.getElementById("lang").onclick = langRU;
 }

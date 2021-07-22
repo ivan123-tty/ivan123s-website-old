@@ -9,7 +9,7 @@ function langRU() {
     document.getElementById("main4").innerHTML = "вот приглашение."
 	document.getElementById("main5").innerHTML = "Моя электронная почта:<br>ivan123another@gmail.com"
 	/*changing country flag and onclick function*/
-	document.getElementById("lang").src = "country-flags/uk.svg"
+	document.getElementById("lang").src = "svg/uk.svg"
 	document.getElementById("lang").onclick = langEN;
 }
 function langEN() {
@@ -20,6 +20,6 @@ function langEN() {
     document.getElementById("main4").innerHTML = "invite is here."
 	document.getElementById("main5").innerHTML = "My e-mail:<br>ivan123another@gmail.com"
 	/*changing country flag and onclick function*/
-	document.getElementById("lang").src = "country-flags/ru.svg"
+	document.getElementById("lang").src = "svg/ru.svg"
 	document.getElementById("lang").onclick = langRU;
 }

@@ -131,6 +131,7 @@ a:hover {
 	color: white;
 }
 
+
 #avatar1 {
 	border-radius: 15px;
 	margin-left: auto;
@@ -155,7 +156,11 @@ a:hover {
 
 #div1 {
 	text-align: center;
-	padding-top: -20px;
+	padding-top: 20px;
+}
+
+#creations {
+	padding-top: 30px;
 }
 
 #main3 {
