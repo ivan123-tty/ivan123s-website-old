@@ -9,7 +9,7 @@ function langRU() {
 	document.getElementById("menu3").innerHTML = "Мой блог"
 	/*changing country flag and onclick function*/
 	document.getElementById("lang").src = "svg/uk.svg"
-	document.getElementById("lang").onclick = langEN;
+	document.getElementById("lang").onclick = langEN
 }
 function langEN() {
 	/*translations itself*/
@@ -19,5 +19,5 @@ function langEN() {
 	document.getElementById("menu3").innerHTML = "My blog"
 	/*changing country flag and onclick function*/
 	document.getElementById("lang").src = "svg/ru.svg"
-	document.getElementById("lang").onclick = langRU;
+	document.getElementById("lang").onclick = langRU
 }
