@@ -8,6 +8,7 @@ function langRU() {
     document.getElementById("main3").innerHTML = "Кстати, у меня есть Discord сервер.<br> Если хотите присоединиться к нему,<br>"
     document.getElementById("main4").innerHTML = "вот приглашение."
 	document.getElementById("main5").innerHTML = "Моя электронная почта:<br>ivan123another@gmail.com"
+	document.getElementById("main6").innerHTML = "Дополнительные аккаунты"
 	/*changing country flag and onclick function*/
 	document.getElementById("lang").src = "svg/uk.svg"
 	document.getElementById("lang").onclick = langEN;
@@ -19,6 +20,7 @@ function langEN() {
     document.getElementById("main3").innerHTML = "Btw, i have a Discord server.<br> If you want to join it,<br>"
     document.getElementById("main4").innerHTML = "invite is here."
 	document.getElementById("main5").innerHTML = "My e-mail:<br>ivan123another@gmail.com"
+	document.getElementById("main6").innerHTML = "Additional accounts"
 	/*changing country flag and onclick function*/
 	document.getElementById("lang").src = "svg/ru.svg"
 	document.getElementById("lang").onclick = langRU;
