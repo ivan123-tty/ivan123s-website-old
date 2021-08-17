@@ -106,6 +106,14 @@ a:hover {
 	color: #7f7f7f;
 }
 
+.fa-times-circle {
+	color:rgb(255, 0, 242);
+	font-size: 30px;
+	top: -25px;
+	left: 295px;
+	position: relative;
+	transition-duration: 0.4s;
+}
 
 #discord-icon, 
 #twitter-icon, 
@@ -131,6 +139,10 @@ a:hover {
 	color: white;
 }
 
+.fa-times-circle:hover {
+	transform: scale(0.92);
+	color: white;
+}
 
 #avatar1 {
 	border-radius: 15px;
@@ -171,6 +183,32 @@ a:hover {
 	margin: 2px;
 }
 
+#modalBg {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 2; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+#modalContent {
+	background-color: rgba(0,0,0,0.2);
+	margin: auto;
+	padding: 20px;
+	border: 5px solid rgb(255, 0, 242);
+	box-shadow: 0px 0px 30px rgb(255, 0, 242);
+	-webkit-backdrop-filter: blur(10px);
+  	backdrop-filter: blur(10px);
+	border-radius: 15px;
+	width: 300px;
+	z-index: 3;
+}
 
 body {
 	animation-name: fade;

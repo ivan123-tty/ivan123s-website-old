@@ -10,10 +10,10 @@
 	<title>ivan123's site</title>
 </head>
 <body>
-	<script src="js/creations.js"></script>
+	
 	<!--adding fontawesome icons and adding links to my socials-->
 
-	<a href="https://discords.com/bio/p/ivan123ru"><i class="fab fa-discord" id=discord-icon></i></a>
+	<i class="fab fa-discord" id=discord-icon onclick="modal()"></i>
 	<a href="https://twitter.com/ivan123ru"><i class="fab fa-twitter-square" id=twitter-icon></i></a>
 	<a href="https://www.reddit.com/user/ivan12345pro"><i class="fab fa-reddit-square" id=reddit-icon></i></a>
 	<a href="https://github.com/ivan123-ru"><i class="fab fa-github-square" id=github-icon></i></a>
@@ -31,5 +31,18 @@
 		<a href="https://krunker.io/social.html?p=mod&q=ivan123mod">ivan123mod</a>
 		<br><a href="https://krunker.io/social.html?p=mod&q=ivan123mod-pink">ivan123mod-pink</a>
 	</div>
+
+	<div id="modalBg">
+		<div id="modalContent">
+			<i class="fas fa-times-circle" onclick="closeModal()"></i>
+				<p>Discord: ivan123#2392</p>
+				<p>Feel free to join my <a href="https://discord.gg/hKwhC9kXM4">Discord server!</a></p>
+		</div>
+	</div>
+
+	<script src="js/creations-tr.js"></script>
+	<script src="js/modal.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </body>
 </html>

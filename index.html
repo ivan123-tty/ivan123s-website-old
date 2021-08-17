@@ -4,7 +4,6 @@
 
 		<noscript><p id="noscript">Warning: JavaScript is disabled in <br>your browser. Some functions not gonna work.</p></noscript>
 		<link rel="icon" type="image/png" href="images/favicon.png">
-		<link rel="stylesheet" type="text/css" href="styles.css">
 		<script src="https://kit.fontawesome.com/8bc670777c.js" crossorigin="anonymous"></script>
 
 		<meta charset="utf-8">
@@ -18,7 +17,7 @@
 	<body>
 	<!--adding fontawesome icons and adding links to my socials-->
 
-	<a href="https://discords.com/bio/p/ivan123ru"><i class="fab fa-discord" id=discord-icon></i></a>
+	<i class="fab fa-discord" id=discord-icon onclick="modal()"></i>
 	<a href="https://twitter.com/ivan123ru"><i class="fab fa-twitter-square" id=twitter-icon></i></a>
 	<a href="https://www.reddit.com/user/ivan12345pro"><i class="fab fa-reddit-square" id=reddit-icon></i></a>
 	<a href="https://github.com/ivan123-ru"><i class="fab fa-github-square" id=github-icon></i></a>
@@ -36,8 +35,18 @@
 		<a id=menu2 href="aboutme.html">About me</a>
 		<a id=menu3 href="https://ivan123theterminal.wordpress.com/">My blog</a>
 	</div>
-		
-	<script src="js/index.js"></script>
 
+	<div id="modalBg">
+		<div id="modalContent">
+			<i class="fas fa-times-circle" onclick="closeModal()"></i>
+			<p>Discord: ivan123#2392</p>
+			<p>Feel free to join my <a href="https://discord.gg/hKwhC9kXM4">Discord server!</a></p>
+		</div>
+	</div>
+		
+	<script src="js/index-tr.js"></script>
+	<script src="js/modal.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </body>
 </html>

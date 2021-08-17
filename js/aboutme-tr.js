@@ -5,8 +5,6 @@ function langRU() {
 	/*translations itself*/
 	document.getElementById("main1").innerHTML = "Привет!"
     document.getElementById("main2").innerHTML = "Я ivan123,<br> подросток интересующийся технологиями.<br> Живу в России."
-    document.getElementById("main3").innerHTML = "Кстати, у меня есть Discord сервер.<br> Если хотите присоединиться к нему,<br>"
-    document.getElementById("main4").innerHTML = "вот приглашение."
 	document.getElementById("main5").innerHTML = "Моя электронная почта:<br>ivan123another@gmail.com"
 	document.getElementById("main6").innerHTML = "Дополнительные аккаунты"
 	/*changing country flag and onclick function*/
