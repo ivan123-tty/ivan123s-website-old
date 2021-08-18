@@ -16,8 +16,6 @@ function langEN() {
 	/*translations itself*/
 	document.getElementById("main1").innerHTML = "Hello!"
 	document.getElementById("main2").innerHTML = "I'm ivan123,<br> a teenager interested in tech.<br> I'm living in Russia."
-	document.getElementById("main3").innerHTML = "Btw, i have a Discord server.<br> If you want to join it,<br>"
-	document.getElementById("main4").innerHTML = "invite is here."
 	document.getElementById("main5").innerHTML = "My e-mail:<br>ivan123another@gmail.com"
 	document.getElementById("main6").innerHTML = "Additional accounts"
 	/*changing country flag and onclick function*/
