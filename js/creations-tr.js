@@ -1,5 +1,6 @@
 window.onload = () => {
-	document.getElementById("lang").style = "opacity: 100%; "};
+	document.getElementById("lang").style = "opacity: 100%; "
+};
 
 function langRU() {
 	/*translations itself*/
